@@ -1,0 +1,35 @@
+.target {
+  max-width: 1040px;
+  display: flex;
+
+  &__image {
+    min-width: 197px;
+    min-height: 194px;
+    background: url("../images/target/target.png") no-repeat;
+  }
+
+  &__content {
+    margin-top: 70px;
+
+  }
+
+  &__title {
+    font-size: 1.875rem;
+  }
+
+  &__tagline {
+    margin-top: 90px;
+    font-size: 3.125rem;
+  }
+}
+
+
+@media only screen and (max-width: 645px) {
+  .target {
+    justify-content: center;
+
+    &__image {
+      display: none;
+    }
+  }
+}

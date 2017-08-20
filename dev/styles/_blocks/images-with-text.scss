@@ -1,0 +1,34 @@
+.images-with-text {
+  max-width: 1031px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &--wider {
+    max-width: 1196px;
+  }
+
+  &__item {
+    max-width: 345px;
+  }
+
+  &__image {
+    margin-bottom: -73px;
+
+    &--smaller-bottom-indent {
+      margin-bottom: -33px;
+    }
+  }
+
+  &__content {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .images-with-text {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

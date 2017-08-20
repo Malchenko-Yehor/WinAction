@@ -1,0 +1,52 @@
+.games-logo {
+  max-width: 843px;
+  height: 558px;
+  margin-top: -123px;
+  margin-bottom: -161px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-image: url("../images/games-logo/glow.png"),
+                    url("../images/games-logo/background.png");
+  background-repeat:   no-repeat, no-repeat;
+  background-size:     auto, 100%;
+  background-position: center 234px, center;
+
+  &__item-left {
+    margin-right: -40px;
+  }
+
+  &__item-right {
+    margin-left: -40px;
+    margin-top: -15px;
+  }
+}
+
+@media only screen and (max-width: 650px){
+  .games-logo {
+    background: none;
+    height: auto;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .games-logo {
+    flex-wrap: wrap-reverse;
+
+    &__item-left,
+    &__item-right {
+      margin: 0;
+    }
+
+    &__item-right {
+      margin-top: -50px;
+    }
+  }
+
+
+
+}

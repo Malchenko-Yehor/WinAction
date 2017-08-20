@@ -1,0 +1,216 @@
+
+.background {
+  background-repeat: no-repeat;
+
+  &__grey-lighter {
+    background-color: #292929;
+  }
+
+  &__lightgrey {
+    background-color: #2b2f32;
+  }
+
+  &__grey {
+    background-color: #171717;
+  }
+
+  &__black {
+    background-color: black;
+  }
+
+  &__locks {
+    background-image: url("../images/backgrounds/background-locks.png");
+  }
+
+  &__illidan-1 {
+    background-image: url("../images/backgrounds/background-illidan-1.png");
+  }
+
+  &__illidan-2 {
+    background-image: url("../images/backgrounds/background-illidan-2.png");
+  }
+
+  &__illidan-3 {
+    background-image: url("../images/backgrounds/background-illidan-3.png");
+
+    &--top-indent {
+      background-position: 60% 186px;
+    }
+  }
+
+  &__tanki-1 {
+    background-image: url("../images/backgrounds/background-tanki-1.png");
+  }
+
+  &__tanki-2 {
+    background-image: url("../images/backgrounds/background-tanki-2.png");
+
+    &--top-indent {
+      background-position: 0 375px;
+    }
+  }
+
+  &__tanki-3 {
+    background-image: url("../images/backgrounds/background-tanki-3.png");
+
+    &--top-indent {
+      background-position: right 202px;
+    }
+  }
+
+  &__tanki-4 {
+    background-image: url("../images/backgrounds/background-tanki-4.png");
+
+    &--left-indent {
+      background-position: 14.6% top;
+    }
+  }
+
+  &__space {
+    background-image: url("../images/backgrounds/background-space.png");
+  }
+
+  &__dark-coder {
+    background-image: url("../images/backgrounds/background-dark-coder.png");
+
+    &--top-indent {
+      background-position: 0 220px;
+    }
+  }
+
+  &__neon {
+    background-image: url("../images/backgrounds/background-neon.png");
+
+    &--top-indent-smaller {
+      background-position: 0 184px;
+    }
+
+    &--top-indent-small {
+      background-position: 0 216px;
+    }
+
+    &--top-indent-big {
+      background-position: 0 1485px;
+    }
+  }
+
+  &__neon-bottom-trimmed {
+    background-image: url("../images/backgrounds/background-neon-bottom-trimmed.png");
+  }
+
+  &__neon-reverse {
+    background-image: url("../images/backgrounds/background-neon-reverse.png");
+
+    &--top-indent-small {
+      background-position: 0 216px;
+    }
+
+    &--top-indent-big {
+      background-position: 0 1250px;
+    }
+  }
+
+  &__neon-dim {
+    background-image: url("../images/backgrounds/background-neon-dim.png");
+
+  }
+
+
+  &__top-secret {
+    background-image: url("../images/backgrounds/background-top-secret.png");
+  }
+
+  &__coder {
+    background-image: url("../images/backgrounds/background-coder.png");
+  }
+
+  &__coder-reversed {
+    background-image: url("../images/backgrounds/background-coder-reversed.png");
+  }
+
+  &__gaming-room {
+    background-image: url("../images/backgrounds/background-gaming-room.png");
+  }
+
+
+  &__orcs {
+    background-image: url("../images/backgrounds/background-orcs.png");
+  }
+
+  &__fire-1 {
+    background-image: url("../images/backgrounds/background-fire-1.png");
+
+    &--top-trim {
+      background-position: center -160px;
+    }
+  }
+
+  &__fire-2 {
+    background-image: url("../images/backgrounds/background-fire-2.png");
+  }
+
+  &__fire-3 {
+    background-image: url("../images/backgrounds/background-fire-3.png");
+
+    &--top-trim {
+      background-position: center -380px;
+    }
+  }
+
+
+  &--center {
+    background-position: center center;
+  }
+
+  &--center-top {
+    background-position: center top;
+  }
+
+  &--center-bottom {
+    background-position: center top;
+  }
+
+  &--left-top {
+    background-position: left top;
+  }
+
+  &--left-center {
+    background-position: left center;
+  }
+
+  &--left-bottom {
+    background-position: left bottom;
+  }
+
+  &--rigth-top {
+    background-position: right top;
+  }
+
+  &--right-center {
+    background-position: right center;
+  }
+
+  &--right-bottom {
+    background-position: right bottom;
+  }
+
+
+  &--cover {
+    background-size: cover;
+  }
+
+  &--contain {
+    background-size: contain;
+  }
+
+
+  &--full {
+    background-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  [class*="background__"]{
+    background-image: none;
+  }
+}

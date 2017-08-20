@@ -1,0 +1,29 @@
+.individual-order {
+  max-width: 855px; }
+  .individual-order__wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .individual-order__image {
+    margin-bottom: -16px; }
+  .individual-order__title {
+    margin-top: 90px;
+    margin-left: -25px; }
+
+@media only screen and (max-width: 430px) {
+  .individual-order__wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .individual-order__title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: 8px; } }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGl2aWR1YWwtb3JkZXIuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsaUJBQWlCLEVBQUU7RUFDbkI7SUFDRSxxQkFBYztJQUFkLHNCQUFjO0lBQWQscUJBQWM7SUFBZCxjQUFjO0lBQ2QseUJBQXdCO0lBQXhCLGdDQUF3QjtRQUF4QixzQkFBd0I7WUFBeEIsd0JBQXdCLEVBQUU7RUFDNUI7SUFDRSxxQkFBcUIsRUFBRTtFQUN6QjtJQUNFLGlCQUFpQjtJQUNqQixtQkFBbUIsRUFBRTs7QUFFekI7RUFDRTtJQUNFLHdCQUFnQjtRQUFoQixvQkFBZ0I7WUFBaEIsZ0JBQWdCLEVBQUU7RUFDcEI7SUFDRSxjQUFjO0lBQ2Qsb0JBQW9CO0lBQ3BCLG1CQUFtQjtJQUNuQixpQkFBaUIsRUFBRSxFQUFFIiwiZmlsZSI6Il9ibG9ja3MvaW5kaXZpZHVhbC1vcmRlci5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaW5kaXZpZHVhbC1vcmRlciB7XG4gIG1heC13aWR0aDogODU1cHg7IH1cbiAgLmluZGl2aWR1YWwtb3JkZXJfX3dyYXBwZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7IH1cbiAgLmluZGl2aWR1YWwtb3JkZXJfX2ltYWdlIHtcbiAgICBtYXJnaW4tYm90dG9tOiAtMTZweDsgfVxuICAuaW5kaXZpZHVhbC1vcmRlcl9fdGl0bGUge1xuICAgIG1hcmdpbi10b3A6IDkwcHg7XG4gICAgbWFyZ2luLWxlZnQ6IC0yNXB4OyB9XG5cbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDMwcHgpIHtcbiAgLmluZGl2aWR1YWwtb3JkZXJfX3dyYXBwZXIge1xuICAgIGZsZXgtd3JhcDogd3JhcDsgfVxuICAuaW5kaXZpZHVhbC1vcmRlcl9fdGl0bGUge1xuICAgIG1hcmdpbi10b3A6IDA7XG4gICAgbWFyZ2luLWJvdHRvbTogMTVweDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgbWFyZ2luLWxlZnQ6IDhweDsgfSB9XG4iXX0= */

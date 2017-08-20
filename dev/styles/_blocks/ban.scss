@@ -1,0 +1,76 @@
+.ban {
+  max-width: 1000px;
+
+  &__title {
+    margin-bottom: 76px;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+  }
+
+  &__icon-pc {
+    margin-right: 30px;
+    position: relative;
+    min-width: 155px;
+    min-height: 155px;
+
+      &::before {
+        content: url("../images/ban/glow.png");
+        position: absolute;
+        left: -90px;
+        top: -90px;
+      }
+
+      &::after {
+        content: url("../images/ban/pc.png");
+        position: absolute;
+      }
+
+  }
+
+  &__icon-money {
+    margin-right: 30px;
+    position: relative;
+    min-width: 155px;
+    min-height: 155px;
+
+      &::before {
+        content: url("../images/ban/glow.png");
+        position: absolute;
+        left: -90px;
+        top: -90px;
+      }
+
+      &::after {
+        content: url("../images/ban/money.png");
+        position: absolute;
+      }
+  }
+
+  &__content {
+
+    max-width: 783px;
+  }
+}
+
+
+@media only screen and (max-width: 610px) {
+
+  .ban__item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ban__icon-pc,
+  .ban__icon-money {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  h2 {
+    font-size: 30px;
+  }
+}

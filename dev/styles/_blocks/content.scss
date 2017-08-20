@@ -1,0 +1,46 @@
+.content {
+  border: 1px solid transparent;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+
+
+  &__inner {
+    padding: 70px 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    &--fixed-size {
+      flex: auto;
+      max-width: 978px;
+    }
+
+    &--fixed-size-big {
+      flex: auto;
+      max-width: 1047px;
+    }
+
+    &--no-top-indent {
+      padding-top: 0px;
+
+    }
+  }
+
+  &:last-child {
+    .content__inner {
+      padding-bottom: 115px;
+    }
+  }
+
+  &--black-filter {
+    background-color: rgba(0, 0, 0, 0.54);
+  }
+
+  &--shadow {
+    box-shadow: 0 16px 43px rgba(0, 0, 0, 0.63);
+  }
+}

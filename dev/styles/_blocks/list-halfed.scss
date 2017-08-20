@@ -1,0 +1,58 @@
+.list-halfed {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+
+    &--indent-bigger {
+      margin-top: 70px;
+    }
+
+    &--own-width {
+      max-width: 978px;
+    }
+
+
+
+    &__half {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      max-width: 429px;
+
+    }
+
+    &__item {
+      padding-left: 39px;
+      background-image: url("../images/list-halfed/check-mark.svg");
+      background-repeat: no-repeat;
+      background-size: 18px 15px;
+      background-position: 0 3px;
+      margin: 0 10px 30px 10px;
+    }
+
+    &__vertical-line {
+      position: absolute;
+      left: 50%;
+      width: 0;
+      height: 100%;
+      border-left: 1px dashed #e1e5e8;
+      opacity: 0.23;
+    }
+}
+
+@media  only screen and (max-width: 850px) {
+    .list-halfed {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .list-halfed__half--indent-on-wrap {
+      margin-top: 70px;
+    }
+
+    .list-halfed__vertical-line {
+      display: none;
+    }
+}

@@ -1,0 +1,130 @@
+.list-with-images {
+  max-width: 1003px;
+  display: flex;
+
+  &__numeration-wrapper {
+    position: relative;
+    min-width: 190px;
+    margin-right: 34px;
+
+    &::before {
+      position: absolute;
+      content: "";
+      left: -20px;
+      top: -20px;
+      background-image: url('../images/list-with-images/glow.png');
+      width: 254px;
+      height: 254px;
+    }
+  }
+
+  &__numeration-wrapper-no-glow {
+    position: relative;
+    min-width: 190px;
+    margin-right: 34px;
+  }
+
+  &__numeration-count {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.12);
+    font-family: Arial;
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__numeration-img {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    z-index: 10;
+
+    &--lock {
+      left: 30px;
+    }
+
+    &--top-secret {
+      left: 40px;
+      top: 20px;
+    }
+
+    &--folder {
+      left: 35px;
+      top: 40px;
+    }
+
+    &--money {
+      left: 50px;
+      top: 20px;
+    }
+
+    &--wallet {
+      left: 45px;
+      top: 25px;
+    }
+
+    &--notebook {
+      left: 60px;
+      top: 35px;
+    }
+
+    &--gamers {
+      left: 10px;
+      top: 10px;
+    }
+
+    &--documents {
+      left: 50px;
+      top: 25px;
+    }
+
+    &--compass {
+      left: 50px;
+      top: 0px;
+    }
+
+    &--screen {
+      left: 40px;
+      top: 30px;
+    }
+
+    &--soldiers {
+      left: 50px;
+      top: 35px;
+    }
+
+
+  }
+
+  &__content {
+    margin-top: 57px;
+
+    &--dock-right {
+      margin-left: 224px;
+    }
+  }
+
+  &--indent-top {
+    margin-top: 100px;
+  }
+}
+
+
+
+@media only screen and (max-width: 645px) {
+  .list-with-images__numeration-wrapper,
+  .list-with-images__numeration-wrapper-no-glow {
+    display: none;
+  }
+  .list-with-images__content {
+    margin: 0;
+
+    &--dock-right {
+      margin-top: 57px;
+    }
+  }
+
+  .list-with-images--indent-top {
+    margin-top: 20px;
+  }
+}

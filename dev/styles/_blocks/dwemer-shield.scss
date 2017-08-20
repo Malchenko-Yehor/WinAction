@@ -1,0 +1,52 @@
+.dwemer-shield {
+  position: relative;
+  z-index: 10;
+  min-height: 491px;
+
+  &__anchor {
+    position: absolute;
+    margin-top: 51px;
+
+    &::before {
+      content: url("../images/dwemer-shield/dwemer-shield-green-back.png");
+      position: absolute;
+      left: -191px;
+      top: -224px;
+      width: 900px;
+      height: 968px;
+    }
+
+    &::after {
+      position: absolute;
+      content: url('../images/dwemer-shield/dwemer-shield.png');
+      width: 395px;
+      height: 491px;
+    }
+
+    &--on-height-with-content {
+      margin-top: 0;
+    }
+
+  }
+
+  &__content {
+    position: relative;
+    z-index: 10;
+    margin-left: 235px;
+
+
+    &--no-colision {
+      margin-left: 395px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .dwemer-shield__anchor {
+    display: none;
+  }
+
+  .dwemer-shield__content {
+    margin-left: 0px;
+  }
+}

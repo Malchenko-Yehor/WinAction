@@ -1,0 +1,38 @@
+.list-ordered-custom {
+  max-width: 678px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  &--indent {
+    margin-top: 53px;
+  }
+
+  &--center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  &__item {
+    display: flex;
+    align-items: baseline;
+    counter-increment: step-counter;
+    margin-top: 40px;
+
+    &::before {
+      content: counter(step-counter);
+      border: 1px solid #c2c2c2;
+      border-radius: 100%;
+      max-width: 30px;
+      max-height: 30px;
+      padding: 2px 8px;
+      color: #b8b8b8;
+      font-family: "PT Sans Narrow Bold";
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-right: 21px;
+    }
+  }
+
+}

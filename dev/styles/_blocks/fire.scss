@@ -1,0 +1,32 @@
+.fire {
+    max-width: 855px;
+
+  &__backgrounded-box {
+  background: #1c1c1c url("../images/fire/fire.png") no-repeat;
+  background-size: cover;
+  border-left: 6px solid #262626;
+  padding: 48px 78px 62px 63px;
+
+  &--bottom-indent {
+    margin-bottom: 40px;
+  }
+ }
+
+  &__title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 630px) {
+  .fire__backgrounded-box {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .fire__backgrounded-box {
+    padding: 30px 5px;
+  }
+}

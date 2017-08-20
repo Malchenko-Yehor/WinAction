@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+@import "normalize";
+@import "_blocks/fonts";
+@import "_blocks/text";
+@import "_blocks/header";
+@import "_blocks/navigation-horizontal";
+@import "_blocks/background";
+@import "_blocks/content";
+@import "_blocks/dwemer-shield";
+@import "_blocks/fire";
+@import "_blocks/separator";
+@import "_blocks/ban";
+@import "_blocks/handshake";
+@import "_blocks/list-with-images";
+@import "_blocks/list-halfed";
+@import "_blocks/thematic-break";
+@import "_blocks/list-ordered-custom";
+@import "_blocks/list-unordered-custom";
+@import "_blocks/warning";
+@import "_blocks/additional-info";
+@import "_blocks/payment-systems";
+@import "_blocks/target";
+@import "_blocks/questions";
+@import "_blocks/games-logo";
+@import "_blocks/images-with-text";
+@import "_blocks/individual-order";

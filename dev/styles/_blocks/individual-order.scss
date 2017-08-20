@@ -1,0 +1,31 @@
+.individual-order {
+    max-width: 855px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__image {
+    margin-bottom: -16px;
+  }
+
+  &__title {
+    margin-top: 90px;
+    margin-left: -25px;
+  }
+
+}
+
+@media only screen and (max-width: 430px) {
+  .individual-order__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .individual-order__title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: 8px;
+  }
+}

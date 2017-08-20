@@ -1,0 +1,51 @@
+.handshake {
+  max-width: 989px;
+  position: relative;
+  margin: 0 5px;
+
+  &__title {
+    position: absolute;
+    width: 100%;
+    top: 122px;
+    margin: auto;
+    font-size: 65px;
+    text-shadow: 0 11px 13px rgba(0, 0, 0, 0.42);
+  }
+
+  &__image {
+    content:  url("../images/handshake/handshake.png");
+    width: 100%;
+    height: auto;
+  }
+
+  &__content {
+    max-width: 825px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .handshake__title {
+    top: 60px;
+  }
+}
+
+
+@media only screen and (max-width: 660px) {
+  .handshake__title {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .handshake__title {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .handshake__title {
+    top: 10px;
+  }
+}

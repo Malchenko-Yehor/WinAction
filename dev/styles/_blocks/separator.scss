@@ -1,0 +1,30 @@
+.separator {
+  width: 60px;
+  height: 1px;
+  background-color: #f26622;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  &--top-indent-largest {
+    margin-top: 90px;
+  }
+
+  &--no-indent {
+    margin-top: 0;
+  }
+
+  &--small {
+    width: 44px;
+    height: 2px;
+  }
+
+  &--center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &--indent-big {
+    margin-top: 58px;
+    margin-botom: 58px;
+  }
+}

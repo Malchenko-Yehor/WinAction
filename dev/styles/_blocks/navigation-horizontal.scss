@@ -1,0 +1,30 @@
+.navigation-horizontal {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 35px;
+  display: flex;
+
+  &__item {
+    // display:  inline-block;
+
+    a {
+      color: #616161;
+      text-decoration: none;
+
+      span {
+        text-decoration: underline;
+      }
+
+      &:hover {
+        color: #f26622;
+      }
+    }
+
+    .is-active {
+      text-decoration: none;
+      color: #f26622;
+    }
+  }
+}
